@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Deteksi Umur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+  <h2>Deteksi Umur</h2>
+
+  <label for="tglLahir">Tanggal Lahir</label>
+  <hr>
+  <input type="date" id="tglLahir">
+
+  <small class="hint">
+    Format: <b>mm/dd/yyyy</b><br>
+    (Bulan/Tanggal/Tahun)
+  </small>
+
+  <button onclick="hitungUmur()">Hitung Umur</button>
+
+  <p id="hasil"></p>
+
+  <button class="logout" onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
